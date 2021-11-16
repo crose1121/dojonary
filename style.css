@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+.navBar {
+    background-color: rgb(185, 180, 180);
+    min-height: 150px;
+    color: black;
+    padding: 20px;
+}
+
+.navBar button {
+    min-height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(53, 53, 250);
+    box-shadow: 5px 5px 2px 2px black;
+    border-color: black;
+    cursor:pointer;
+}
+
+.searchBar {
+    min-height: 40px;
+    width: 300px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.main {
+    flex: 2;
+}
+
+.aside {
+    flex: 1;
+}
+
+.definition {
+    padding: 15px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+main button {
+    width: 100px;
+    min-height: 30px;
+    margin-top: 20px;
+    color:black;
+    background-color:yellow;
+    box-shadow: 3px 3px 2px 2px black;
+    border-color: black;
+    cursor:pointer;
+}
+
+.definition.flexed h3 {
+    text-align: center;
+    
+}
+
+aside button {
+    min-height: 50px;
+    margin-top: 20px;
+    color:black;
+    background-color:rgb(131, 197, 32);
+    box-shadow: 3px 3px 2px 2px black;
+    border-color: black;
+    cursor:pointer;
+}
